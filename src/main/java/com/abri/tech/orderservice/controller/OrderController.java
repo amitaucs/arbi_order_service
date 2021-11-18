@@ -28,7 +28,7 @@ public class OrderController {
 
         var orderResponse = OrderResponse.builder()
                 .orderId(123)
-                .orderDetails("Veg Burger none spicy")
+                .orderDetails("Veg Burger Spicy")
                 .build();
 
         return ResponseEntity.status(HttpStatus.OK).body(orderResponse);
